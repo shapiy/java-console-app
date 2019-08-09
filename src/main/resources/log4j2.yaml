@@ -1,0 +1,22 @@
+Configuration:
+  status: warn
+  name: KenticoExportLoggingConfig
+  thresholdFilter:
+    level: debug
+  appenders:
+    Console:
+      name: STDOUT
+      PatternLayout:
+        Pattern: "%d{dd-MM-yyyy HH:mm:ss} [%-4level] %c{2} - %msg%n"
+
+  Loggers:
+    logger:
+      - name: template
+        additivity: false
+        level: info
+        AppenderRef:
+          ref: STDOUT
+    Root:
+      level: error
+      AppenderRef:
+        ref: STDOUT
