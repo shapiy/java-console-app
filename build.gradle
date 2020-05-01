@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
-    implementation 'com.google.guava:guava:28.2-jre'
+    implementation 'com.google.guava:guava:29.0-jre'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.3'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.10.3'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.3'
