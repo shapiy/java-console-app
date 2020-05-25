@@ -11,7 +11,7 @@ Configuration:
 
   Loggers:
     logger:
-      - name: template
+      - name: TEMPLATE
         additivity: false
         level: info
         AppenderRef:
