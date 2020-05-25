@@ -34,7 +34,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'template.App'
+    mainClassName = 'TEMPLATE.App'
 }
 
 test {
