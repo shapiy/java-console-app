@@ -1,6 +1,6 @@
 Configuration:
   status: warn
-  name: KenticoExportLoggingConfig
+  name: TEMPLATE
   thresholdFilter:
     level: debug
   appenders:
