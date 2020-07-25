@@ -16,8 +16,8 @@ git grep TEMPLATE
 ```
 
 ## Building console application
-1. Run Gradle: `./gradlew distTar`.
-2. Pick up the TAR file from `build/distributions/TEMPLATE.tar`.
+1. Run Gradle: `./gradlew customFatJar`.
+2. Pick up the TAR file from `build/libs/TEMPLATE.jar`.
 
 ## Usage
 
