@@ -11,7 +11,7 @@ repositories {
 dependencies {
     // These dependencies are used by the application.
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
-    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.1'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.0'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.1'
     implementation 'com.google.guava:guava:29.0-jre'
     implementation 'info.picocli:picocli:4.4.0'
